@@ -1,0 +1,31 @@
+h1 {
+  color:blue;
+  text-align: center;
+}
+img {
+  scale: 1;
+}
+
+p {
+  color:red;
+  text-align: center
+}
+.container {
+  display: grid;
+  place-items: center;
+}
+button {
+  font-size:18px; /* ukuran font yang lebih besar*/
+  padding:12px 20px;
+  border-width:3px;
+}
+.image {
+  display: none; 
+  position: absolute; /* posisi gambar di atas tombol */
+  top: 0; /* posisi gambar di atas tombol */
+  left: 0;
+}
+
+button:hover .image {
+  display: block;
+}
